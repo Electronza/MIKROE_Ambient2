@@ -123,7 +123,7 @@ void loop()
   else{
      // Read the measurement
      reading = Ambient2.measure_Lux();
-     Serial.print("Ambient light is :");
+     Serial.print("Ambient light is: ");
      Serial.print(reading);
      Serial.println(" lux");
   }
